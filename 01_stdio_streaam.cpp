@@ -6,14 +6,14 @@
 /*   By: del-yaag <del-yaag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/06 18:11:31 by del-yaag          #+#    #+#             */
-/*   Updated: 2023/09/06 18:23:39 by del-yaag         ###   ########.fr       */
+/*   Updated: 2023/09/07 13:30:30 by del-yaag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 
 #include <iostream>
 
-int main(void) {
+int main( void ) {
 
 	char	buff[512];
 

@@ -6,7 +6,7 @@
 /*   By: del-yaag <del-yaag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/06 18:41:24 by del-yaag          #+#    #+#             */
-/*   Updated: 2023/09/06 18:44:46 by del-yaag         ###   ########.fr       */
+/*   Updated: 2023/09/07 13:30:49 by del-yaag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,8 @@
 class Sample {
 
 	public:
-		Sample(void);
-		~Sample(void);
+		Sample( void );
+		~Sample( void );
 	
 };
 
