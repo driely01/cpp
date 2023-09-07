@@ -1,19 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   02_main.cpp                                        :+:      :+:    :+:   */
+/*   05_Sample.class.cpp                                :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: del-yaag <del-yaag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/07 13:22:27 by del-yaag          #+#    #+#             */
-/*   Updated: 2023/09/07 18:18:52 by del-yaag         ###   ########.fr       */
+/*   Created: 2023/09/07 17:59:43 by del-yaag          #+#    #+#             */
+/*   Updated: 2023/09/07 18:04:31 by del-yaag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "02_Sample.class.hpp"
+#ifndef SAMPLE_CLASS_H
+#define SAMPLE_CLASS_H
 
-int main( void ) {
+class Sample {
 
-	Sample instance;
-	return 0;
-}
+	public:
+		char	a1;
+		int		a2;
+		float	a3;
+		Sample( char p1, int p2, float p3 );
+		~Sample( void );
+};
+
+#endif

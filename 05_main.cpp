@@ -1,19 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   02_main.cpp                                        :+:      :+:    :+:   */
+/*   05_main.cpp                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: del-yaag <del-yaag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/07 13:22:27 by del-yaag          #+#    #+#             */
-/*   Updated: 2023/09/07 18:18:52 by del-yaag         ###   ########.fr       */
+/*   Created: 2023/09/07 18:16:20 by del-yaag          #+#    #+#             */
+/*   Updated: 2023/09/07 18:25:50 by del-yaag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "02_Sample.class.hpp"
+#include <iostream>
+#include "05_Sample.class.hpp"
 
 int main( void ) {
 
-	Sample instance;
+	Sample instance( 'a', 42, 4.2f );
 	return 0;
 }
