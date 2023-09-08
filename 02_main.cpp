@@ -6,11 +6,11 @@
 /*   By: del-yaag <del-yaag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/07 13:22:27 by del-yaag          #+#    #+#             */
-/*   Updated: 2023/09/07 18:18:52 by del-yaag         ###   ########.fr       */
+/*   Updated: 2023/09/08 14:10:58 by del-yaag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "02_Sample.class.hpp"
+#include "02_ClassAndInstance.class.hpp"
 
 int main( void ) {
 

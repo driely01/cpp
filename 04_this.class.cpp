@@ -1,20 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   05_main.cpp                                        :+:      :+:    :+:   */
+/*   04_this.class.cpp                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: del-yaag <del-yaag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/09/07 18:16:20 by del-yaag          #+#    #+#             */
-/*   Updated: 2023/09/08 14:11:29 by del-yaag         ###   ########.fr       */
+/*   Created: 2023/09/07 17:43:25 by del-yaag          #+#    #+#             */
+/*   Updated: 2023/09/08 14:09:03 by del-yaag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
-#include "05_InitList.class.hpp"
+#include "04_this.class.hpp"
 
-int main( void ) {
+Sample::Sample( void ) {
+	
+	std::cout << "constructor called" << std::endl;
+	this->foo = 42;
+	std::cout << "this->foo: " << this->foo << std::endl;
+	this->bar();
+	return;
+}
 
-	Sample instance( 'a', 42, 4.2f );
-	return 0;
+Sample::~Sample( void ) {
+	
+	std::cout << "destructor called" << std::endl;
+	return;
+}
+
+void	Sample::bar( void ) {
+	
+	std::cout << "member function bar called" << std::endl;
+	return;
 }
